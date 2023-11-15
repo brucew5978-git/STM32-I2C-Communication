@@ -6,6 +6,9 @@ General intro into I2C communication on STM32 Nucleo L476RG
 Scope: Successful communication via I2C, but need more driver building for getting proper sensor values
 
 ### Notes
+
+STM32 Pinout: Need to adjust pin settings in the .ioc to properly setup the system
+
 Serial display can use following steps:
 1. ls /dev/tty.*
 2. find stm32 device (usually usbmodemxxxx)
